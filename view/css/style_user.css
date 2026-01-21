@@ -1,0 +1,260 @@
+
+/* css for all */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+h2 {
+  color: orangered;
+  margin-bottom: 2%;
+}
+
+.img-responsive {
+  width: 100%;
+  /* height: 80px; */
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+  float: none;
+}
+
+a {
+  color: orangered;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+.btn {
+  padding: 1%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: red;
+}
+
+.img-curve {
+  border-radius: 15px;
+  /* width: 50%; */
+}
+
+
+
+/* css for navbar */
+
+.logo {
+  width: 10%;
+  float: left;
+}
+
+.menu {
+  line-height: 60px;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 1%;
+  font-weight: bold;
+}
+
+
+
+/* CSS for car search */
+
+.car-search {
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7% 0;
+}
+
+.car-search input[type="search"] {
+  width: 50%;
+  padding: 1%;
+  font-size: 1rem;
+  border: 1px solid orangered;
+  border-radius: 5px;
+}
+
+
+/* CSS for  categories*/
+.categories {
+  padding: 4% 0;
+}
+
+.box-3 {
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+.img-text {
+  /* position: absolute; */
+  text-align: center;
+}
+
+.img-bg-1 {
+  background-image: url(/images/1.jpg);
+  background-position: center;
+}
+
+.img-bg-2 {
+  background-image: url(/images/2.jpg);
+  background-position: center;
+}
+
+.img-bg-3 {
+  background-image: url(/images/3.jpg);
+  background-position: center;
+}
+
+.text-orange {
+  color: red;
+}
+
+/* when clicked on a category
+.text-category{
+  background-color: white;
+  padding: ;
+} */
+
+h3 {
+  padding: 5%;
+  font-size: 1.5rem;
+}
+
+/* CSS for car menu */
+.car-menu {
+  background-color: antiquewhite;
+  /* padding: 4px 0;  */
+}
+
+.car-menu-box {
+  border: 1px solid orangered;
+  background-color: white;
+  width: 42%;
+  height: 135px;
+  /* added */
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  border-radius: 15px;
+}
+
+.car-menu img {
+  width: 20%;
+  float: left;
+}
+
+.car-menu-desc {
+  width: 70%;
+  float: left;
+  margin-left: 8%;
+}
+
+.car-location {
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+
+.car-desc {
+  font-size: 1rem;
+  color: #747d8c;
+  /* margin: 1%; */
+}
+
+.social ul li {
+  display: inline;
+  padding: 1%;
+}
+
+.social-img {
+  width: 3%;
+}
+
+.categories-img {
+  border: none;
+}
+
+.mp-21 {
+  padding-bottom: 2%;
+  margin-bottom: 1%;
+}
+
+
+
+/* for Buy Section */
+
+.buy {
+  width: 50%;
+  margin: 0% 25%;
+  background-color: white;
+  color: black;
+}
+
+.input-responsive {
+  width: 90%;
+  padding: 1.75%;
+  margin: 0 2%;
+  border: 1px orangered dotted;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.order-label {
+  margin: 0.5% auto;
+  font-weight: bold;
+  text-align: center;
+}
+
+.adopt-img {
+  width: 15%;
+}
+
+.btn-center {
+  padding: 1.5%;
+  margin-left: 40%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+
+
+
+
+
